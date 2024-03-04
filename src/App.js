@@ -2,6 +2,7 @@ import React from 'react';
 import FavoriteColor from './FavoriteColor';
 import Car from './Car';
 import Timer from './Timer';
+import Counter from './Counter';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <FavoriteColor />
       <Car />
       <Timer /> 
+      <Counter />
     </div>
   );
 }
