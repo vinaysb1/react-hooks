@@ -1,4 +1,3 @@
-
 import React, { createContext } from 'react';
 import Component2 from './Component2'
 
