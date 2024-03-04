@@ -8,7 +8,7 @@ const Timer = () => {
         setTimeout(() => {
           setCount((count) => count + 1);
         }, 1000);
-      });
+      },[]);
       
   return (
     <div>
@@ -18,3 +18,4 @@ const Timer = () => {
 }
 
 export default Timer
+
