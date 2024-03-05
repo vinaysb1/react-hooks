@@ -7,19 +7,21 @@ import Component1 from './Component1'
 import UseRef from './UseRef'
 import UseRef2 from './UseRef2'
 import ReducerDemo from './ReducerDemo'
+import MemoDemo from './MemoDemo';
 
 
 function App() {
   return (
     <div className="App">
-      <ReducerDemo />
+      <MemoDemo />
+      {/* <ReducerDemo />
       <UseRef2 />
       <UseRef />
       <Component1 />
       <FavoriteColor />
       <Car />
       <Timer /> 
-      <Counter />
+      <Counter /> */}
     </div>
   );
 }
