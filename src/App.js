@@ -8,11 +8,13 @@ import UseRef from './UseRef'
 import UseRef2 from './UseRef2'
 import ReducerDemo from './ReducerDemo'
 import MemoDemo from './MemoDemo';
+import ParentCall from './ParentCall';
 
 
 function App() {
   return (
     <div className="App">
+      <ParentCall />
       <MemoDemo />
       {/* <ReducerDemo />
       <UseRef2 />
